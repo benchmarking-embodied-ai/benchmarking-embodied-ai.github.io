@@ -15,3 +15,11 @@ body {
     margin-top: -5px;
 }
 
+/* Start Generation Here */
+.person-photo {
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1/1;
+}
+/* End Generation Here */
+
