@@ -28,7 +28,7 @@
           <a class="nav-item nav-link" href="index.html#">Home</a>
           <a class="nav-item nav-link" href="index.html#intro">Introduction</a>
           <a class="nav-item nav-link" href="index.html#call">Call for Papers</a>
-          <a class="nav-item nav-link" href="index.html#challenge">Challenge</a>
+          <a class="nav-item nav-link" href="index.html#challenge">Challenges</a>
           <a class="nav-item nav-link" href="index.html#schedule">Schedule</a>
           <a class="nav-item nav-link" href="index.html#speakers">Speakers</a>
           <a class="nav-item nav-link" href="index.html#organizers">Organizers</a>
@@ -56,8 +56,28 @@
   <div class="bg-body">
     <div class="container" id="intro">
       <h2 class="text-center">Introduction</h2>
-
-      TBA
+      <p>Despite experiencing rapid progress over the past few years, embodied artificial intelligence (EAI)
+        continues to face significant challenges in producing agents that can convincingly perform diverse
+        tasks in everyday environments. Such agents need to perceive, reason, and act in both dynamic and
+        unstructured settings, which can be both costly and dangerous to immediately develop in the real
+        world. As a result, the research community has developed scalable and controllable EAI benchmarks
+        in simulation to enable both safe and reproducible evaluation. We are hosting this workshop to provide insights
+        and responses to important questions related to this effort, namely:
+      <ul>
+        <li>Where are we in terms of achieving generalizable EAI solutions in everyday tasks? How do current EAI
+          solutions perform in some of the most challenging benchmarks?</li>
+        <li>How can we design unified metrics that fairly compare methods across EAI simulators?</li>
+        <li>How can simulation tools be better leveraged when exploring EAI, such as for data collection, scaling laws,
+          and generalization capabilities?</li>
+        <li>How can we leverage generative models, foundation models, and various real-to-sim techniques to build better
+          simulators for EAI?</li>
+        <li>How has recent progress helped tackle sim-to-real (domain) gaps?</li>
+        <li>How can we encourage community-contributed tasks, assets, and evaluation while maintaining quality control,
+          versioning, and long-term support for EAI simulators?</li>
+        <li>How can we make EAI simulators more accessible for educational purposes?</li>
+      </ul>
+      <p>To foster engagement and promote intellectually stimulating discussions, our workshop will be a mixture of
+        eight invited talks, a formal debate, a panel discussion, and two embodied AI simulation challenges.</p>
     </div>
   </div>
 
@@ -72,7 +92,7 @@
   <div class="bg-body">
     <div class="container" id="dates">
       <h2 class="text-center">Important Dates</h2>
-      <table>
+      <table class="table table-bordered align-middle">
         <thead>
           <tr>
             <th>Event</th>
@@ -115,20 +135,153 @@
   <div class="bg-body">
     <div class="container" id="schedule">
       <h2 class="text-center">Workshop Schedule (Tentative)</h2>
-      TBA
+      <table class="table table-bordered align-middle">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Program</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>9:00-9:10</td>
+            <td>Opening remarks</td>
+          </tr>
+          <tr>
+            <td>9:10-10:30</td>
+            <td>Four keynote talks (20min each)</td>
+          </tr>
+          <tr>
+            <td>10:30-10:45</td>
+            <td>Spotlight paper talks (5min each)</td>
+          </tr>
+          <tr>
+            <td>11:00-11:40</td>
+            <td>Two keynote talks (20min each)</td>
+          </tr>
+          <tr>
+            <td>11:40-12:20</td>
+            <td>Debate session (40min)</td>
+          </tr>
+          <tr>
+            <td>12:30-13:30</td>
+            <td>Student mentoring lunch session</td>
+          </tr>
+          <tr>
+            <td>13:00-14:00</td>
+            <td>Poster session</td>
+          </tr>
+          <tr>
+            <td>14:10-14:50</td>
+            <td>Two keynote talks (20min each)</td>
+          </tr>
+          <tr>
+            <td>14:50-15:30</td>
+            <td>Challenge overview, results (20min each)</td>
+          </tr>
+          <tr>
+            <td>15:30-16:10</td>
+            <td>Winning teams presentation (10min each)</td>
+          </tr>
+          <tr>
+            <td>16:10-17:00</td>
+            <td>Panel discussion, Q&amp;A (40min)</td>
+          </tr>
+          <tr>
+            <td>17:00-17:15</td>
+            <td>Closing remarks</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 
   <div class="bg-light">
     <div class="container" id="speakers">
       <h2 class="text-center">Invited Speakers</h2>
-      <div class="people">
-
-        <a href="#">
-          <img src="./static/images/person.jpg">
-          <div>TBA</div>
-          <div class="aff">TBA</div>
-        </a>
+      <div class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-5 row-cols-xl-6 g-4">
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/russ-tedrake.jpg" class="card-img-top person-photo" alt="Russ Tedrake">
+            <div class="card-body">
+              <h5 class="card-title">Russ Tedrake</h5>
+              <p class="card-text">MIT, Toyota Research Institute</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/katerina-fragkiadaki.jpg" class="card-img-top person-photo"
+              alt="Katerina Fragkiadaki">
+            <div class="card-body">
+              <h5 class="card-title">Katerina Fragkiadaki</h5>
+              <p class="card-text">Carnegie Mellon University</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/chuang-gan.jpg" class="card-img-top person-photo" alt="Chuang Gan">
+            <div class="card-body">
+              <h5 class="card-title">Chuang Gan</h5>
+              <p class="card-text">University of Massachusetts, IBM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/roozbeh-mottaghi.jpg" class="card-img-top person-photo" alt="Roozbeh Mottaghi">
+            <div class="card-body">
+              <h5 class="card-title">Roozbeh Mottaghi</h5>
+              <p class="card-text">FAIR, University of Washington</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/abhinav-valada.jpg" class="card-img-top person-photo" alt="Abhinav Valada">
+            <div class="card-body">
+              <h5 class="card-title">Abhinav Valada</h5>
+              <p class="card-text">University of Freiburg</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/ajay-mandlekar.jpg" class="card-img-top person-photo" alt="Ajay Mandlekar">
+            <div class="card-body">
+              <h5 class="card-title">Ajay Mandlekar</h5>
+              <p class="card-text">NVIDIA</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/daniel-seita.jpg" class="card-img-top person-photo" alt="Daniel Seita">
+            <div class="card-body">
+              <h5 class="card-title">Daniel Seita</h5>
+              <p class="card-text">University of Southern California</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/guanya-shi.jpg" class="card-img-top person-photo" alt="Guanya Shi">
+            <div class="card-body">
+              <h5 class="card-title">Guanya Shi</h5>
+              <p class="card-text">Carnegie Mellon University</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/manling-li.jpg" class="card-img-top person-photo" alt="Manling Li">
+            <div class="card-body">
+              <h5 class="card-title">Manling Li</h5>
+              <p class="card-text">Northwestern University</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -136,13 +289,225 @@
   <div class="bg-body">
     <div class="container" id="organizers">
       <h2 class="text-center">Organizers</h2>
-      <!-- <p> listed alphabetically </p> -->
-      <div class="people">
-        <a href="$">
-          <img src="./static/images/person.png">
-          <div>TBA</div>
-          <div class="aff">TBA</div>
-        </a>
+      <h3 class="text-center mt-4">Workshop Organizers</h3>
+      <div class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 g-4 mb-4">
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/ruohan-zhang.jpg" class="card-img-top person-photo" alt="Ruohan Zhang">
+            <div class="card-body">
+              <h5 class="card-title">Ruohan Zhang</h5>
+              <p class="card-text">Stanford</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/jiafei-duan.jpg" class="card-img-top person-photo" alt="Jiafei Duan">
+            <div class="card-body">
+              <h5 class="card-title">Jiafei Duan</h5>
+              <p class="card-text">UW</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/huang-huang.jpg" class="card-img-top person-photo" alt="Huang Huang">
+            <div class="card-body">
+              <h5 class="card-title">Huang Huang</h5>
+              <p class="card-text">Stanford</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/mengdi-xu.jpg" class="card-img-top person-photo" alt="Mengdi Xu">
+            <div class="card-body">
+              <h5 class="card-title">Mengdi Xu</h5>
+              <p class="card-text">Stanford</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/chengshu-li.jpg" class="card-img-top person-photo" alt="Chengshu Li">
+            <div class="card-body">
+              <h5 class="card-title">Chengshu Li</h5>
+              <p class="card-text">Stanford</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="text-center mt-4">Challenge Organizers</h3>
+      <div class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 g-4 mb-4">
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/josiah-wong.jpg" class="card-img-top person-photo" alt="Josiah Wong">
+            <div class="card-body">
+              <h5 class="card-title">Josiah Wong</h5>
+              <p class="card-text">Stanford</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/yi-ru-wang.jpg" class="card-img-top person-photo" alt="Yi Ru Wang">
+            <div class="card-body">
+              <h5 class="card-title">Yi Ru Wang</h5>
+              <p class="card-text">UW</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/cem-gokmen.jpg" class="card-img-top person-photo" alt="Cem Gokmen">
+            <div class="card-body">
+              <h5 class="card-title">Cem Gokmen</h5>
+              <p class="card-text">Stanford</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/hang-yin.jpg" class="card-img-top person-photo" alt="Hang Yin">
+            <div class="card-body">
+              <h5 class="card-title">Hang Yin</h5>
+              <p class="card-text">Stanford</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/wensi-ai.jpg" class="card-img-top person-photo" alt="Wensi Ai">
+            <div class="card-body">
+              <h5 class="card-title">Wensi Ai</h5>
+              <p class="card-text">Stanford</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/sanjana-srivastava.jpg" class="card-img-top person-photo"
+              alt="Sanjana Srivastava">
+            <div class="card-body">
+              <h5 class="card-title">Sanjana Srivastava</h5>
+              <p class="card-text">Stanford</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/yunfan-jiang.jpg" class="card-img-top person-photo" alt="Yunfan Jiang">
+            <div class="card-body">
+              <h5 class="card-title">Yunfan Jiang</h5>
+              <p class="card-text">Stanford</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/hanxiao-jiang.jpg" class="card-img-top person-photo" alt="Hanxiao Jiang">
+            <div class="card-body">
+              <h5 class="card-title">Hanxiao Jiang</h5>
+              <p class="card-text">Columbia</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/mingtong-zhang.jpg" class="card-img-top person-photo" alt="Mingtong Zhang">
+            <div class="card-body">
+              <h5 class="card-title">Mingtong Zhang</h5>
+              <p class="card-text">USC</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/arpit-bahety.jpg" class="card-img-top person-photo" alt="Arpit Bahety">
+            <div class="card-body">
+              <h5 class="card-title">Arpit Bahety</h5>
+              <p class="card-text">UT-Austin</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="text-center mt-4">Advisory Board</h3>
+      <div class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 g-4 mb-4">
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/hyowon-gweon.jpg" class="card-img-top person-photo" alt="Hyowon Gweon">
+            <div class="card-body">
+              <h5 class="card-title">Hyowon Gweon</h5>
+              <p class="card-text">Stanford</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/c-karen-liu.jpg" class="card-img-top person-photo" alt="C. Karen Liu">
+            <div class="card-body">
+              <h5 class="card-title">C. Karen Liu</h5>
+              <p class="card-text">Stanford</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/yunzhu-li.jpg" class="card-img-top person-photo" alt="Yunzhu Li">
+            <div class="card-body">
+              <h5 class="card-title">Yunzhu Li</h5>
+              <p class="card-text">Columbia</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/roberto-martin-martin.jpg" class="card-img-top person-photo"
+              alt="Roberto Martín-Martín">
+            <div class="card-body">
+              <h5 class="card-title">Roberto Martín-Martín</h5>
+              <p class="card-text">UT-Austin</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/ranjay-krishna.jpg" class="card-img-top person-photo" alt="Ranjay Krishna">
+            <div class="card-body">
+              <h5 class="card-title">Ranjay Krishna</h5>
+              <p class="card-text">UW</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/dieter-fox.jpg" class="card-img-top person-photo" alt="Dieter Fox">
+            <div class="card-body">
+              <h5 class="card-title">Dieter Fox</h5>
+              <p class="card-text">UW</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/jiajun-wu.jpg" class="card-img-top person-photo" alt="Jiajun Wu">
+            <div class="card-body">
+              <h5 class="card-title">Jiajun Wu</h5>
+              <p class="card-text">Stanford</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./static/images/li-fei-fei.jpg" class="card-img-top person-photo" alt="Li Fei-Fei">
+            <div class="card-body">
+              <h5 class="card-title">Li Fei-Fei</h5>
+              <p class="card-text">Stanford</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
